@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+#top{
+    display:block;
+    background-color:darkslategrey;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#gnome{
+    display:inline-block;
+    font-size: 150px;
+    height: 130px;
+    width: 550px;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+#Trouble{
+    display:inline-block;
+    font-size:20px;
+    width: 360px;
+    margin-left: 840px;
+    
+}
+#beautifulemail{
+    display: block;
+    font-size: 50px;
+    height: 220px;
+    width:700px;
+    padding-left:20px;
+    padding-top:30px;
+    
+    
+}
+#simple{
+    font-style: italic;
+}
+#small{
+    display:block;
+    width:300px;
+    margin-left:20px;
+    text-decoration: overline;
+    margin-top: 20px;
+    border-color: lightgray;
+    border-top: 60px;
+    font-style: italic;
+    
+}
+#mainimage{
+    width: 1220px;
+    height: 600px;
+    background-image: url("big_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+
+}
+#mainblogpost{
+    background-color: white;
+    height: 380px;
+    width: 1000;
+    margin-bottom: 40px;
+}
+#hmainblogpost{
+    display: block;
+    font-size: 40px;
+    width: 600px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 70px;
+}
+#pmainblogpost{
+    font-size: 30px;
+    width: 1000px;
+    height: 120px;
+    margin-left: 70px;
+    font color: lightgrey;
+}
+
+#logos{
+    background-color: white;
+    height: 380px;
+    margin-bottom: 40px;
+}
+h5{
+    font-size:30px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 20px
+    
+}
+#editablepic{
+    height: 130px;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+#editable{
+    display:inline-block;
+    height: 150px;
+    padding-left: 90px;
+    font-size: 20px;
+}
+#peditable{
+    padding-left: 100px;
+    
+}
+#versatilepic{
+    height: 130px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+#versatile{
+    display:inline-block;
+    padding-top: 30px;
+}
+#pversatile{
+    padding-left:90px;
+    font-size: 20px;
+}
+#professionalpic{
+    height: 130px;
+    padding-left: 160px;
+    padding-bottom: 20px;
+}
+#professional{
+    display:inline-block;
+}
+#pprofessional{
+    padding-left: 130px;
+    font-size: 20px;
+}
+#sendicate{
+    background-color: white;
+    height: 380px;
+    margin-bottom: 40px;
+}
+#sendicatepic{
+    display:inline;
+}
+#psendicate{
+    display:block;    
+    font-size: 35px;
+    margin-top: 60px;
+    width: 500px;
+    padding: 50px;
+
+}
+#shoes{
+    background-color:white;
+    height: 380px;
+    margin-bottom: 40px;
+}
+#pshoes{
+    display: block;
+    float:right;
+    width: 500px;
+    font-size: 35px;
+    margin-top: 60px;
+    padding: 50px;
+}
+#shoespic{
+    display: block:
+    float: left;
+}
+#adspace{
+    font-size: 40px;
+    height: 180px;
+    background-color: chartreuse;
+    margin-bottom: 40px;
+    padding-left: 470px;
+    padding-top: 50px;
+}
+#last{
+    background-color: white;
+    height: 220px;
+    margin-bottom: 40px;
+}
+#last2{
+    display: block;
+    font-size: 40px;
+    height: 60px;
+    width: 600px;
+    margin-left: 70px;
+    
+}
+#plast{
+    font-size: 30px;
+    width: 1000px;
+    height: 120px;
+    margin-left: 70px;
+
+}
+
+#copyright{
+    height: 170px;
+    background-color: darkslategrey;
+    margin-bottom: 40px;
+}
+#copyright2{
+    display: block;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+#viewonline{
+    font-size: 20px;
+    display: block;
+    padding-top: 20px;
+    padding-left: 490px;
+}
+footer{
+    background-color: white;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
